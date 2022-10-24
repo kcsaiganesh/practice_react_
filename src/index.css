@@ -9,3 +9,47 @@ body {
     height: 70%;
     width: 30%;
 }
+.headink {
+    position: absolute;
+    font-size: 60px;
+    top: 20%;
+    left: 10%;
+}
+.desc {
+    position: absolute;
+    font-size: 20px;
+    opacity: 60%;
+    top: 50%;
+    left: 10%;
+}
+.btn {
+    position: absolute;
+    font-size: 15px;
+    padding: 6px 18px;
+    color: black;
+    font-weight: bold;
+    top: 70%;
+    left: 10%;
+    background-color: #fafafa;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-width: thin;
+    text-decoration: none;
+}
+.btn:hover {
+    position: absolute;
+    font-size: 15px;
+    padding: 6px 18px;
+    opacity: 80%;
+    color: black;
+    font-weight: bold;
+    top: 70%;
+    left: 10%;
+    background-color: #fafafa;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    border-width: thin;
+    text-decoration: none;
+}
