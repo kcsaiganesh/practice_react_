@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Nav />
       <Body />
-      <Fotter />
+      
     </div>
   );
 }
