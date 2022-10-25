@@ -1,13 +1,13 @@
-import Body from './Components/Bodycom';
-import Nav from './Components/Navbar';
-import Fotter from './Components/Fottercomp';
+import Background from "./Components/Background/Background";
+import Nav from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
+      <Background />
       <Nav />
-      <Body />
-      
+      <Footer />
     </div>
   );
 }

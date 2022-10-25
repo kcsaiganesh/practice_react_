@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-class BodyComponents extends Component {
+import './Background.css'
+class Background extends Component {
   render() {
     return (
       <div>
@@ -23,4 +24,4 @@ class BodyComponents extends Component {
     );
   }
 }
-export default BodyComponents;
+export default Background;
