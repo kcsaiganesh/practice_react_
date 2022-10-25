@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './Background.css'
+import "./Background.css";
 class Background extends Component {
   render() {
     return (
@@ -12,6 +12,8 @@ class Background extends Component {
           process, create team rituals and<br></br>watch productivity soar
         </p>
         <img
+          width={350}
+          height={420}
           className="hero-desktop"
           src="https://github.com/kcsaiganesh/snap/raw/main/public/images/image-hero-desktop.png"
         ></img>

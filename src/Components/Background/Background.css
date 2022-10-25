@@ -4,10 +4,8 @@ body {
 
 .hero-desktop {
     position: absolute;
-    left: 50%;
-    top: 25%;
-    height: 70%;
-    width: 30%;
+    right: 20%;
+    bottom: 10%;
 }
 .headink {
     position: absolute;
