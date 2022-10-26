@@ -2,20 +2,11 @@ body {
     font-family: 'Epilogue', sans-serif;
     background-color: hsl(0, 0%, 98%);
     box-sizing: border-box;
-    padding: 25px;
-}
-
-.toggle {
-    margin: 0 5px 0 5px;
+    padding: 15px;
 }
 
 .navbar-brand:hover {
     cursor: pointer;
-}
-
-.nav-link {
-    padding: 2px;
-    margin: 5px 10px;
 }
 
 .nav-link:hover {
@@ -23,7 +14,6 @@ body {
     color: hsl(0, 0%, 8%);
 }
 
-.register {
-    border: 2px solid #000;
-    border-radius: 5px;
+.heading {
+    font-size: 4rem;
 }
