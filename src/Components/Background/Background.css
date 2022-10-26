@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Epilogue');
+
 body {
     background-color: #fafafa;
 }
@@ -9,18 +11,20 @@ body {
 }
 .headink {
     position: absolute;
+    font-family: "Epilogue";
     font-size: 60px;
     top: 20%;
     left: 10%;
 }
 .desc {
     position: absolute;
+    font-family: "Epilogue";
     font-size: 20px;
     opacity: 60%;
     top: 50%;
     left: 10%;
 }
-.btn {
+.btn-learnmore {
     position: absolute;
     font-size: 15px;
     padding: 6px 18px;
@@ -35,7 +39,7 @@ body {
     border-width: thin;
     text-decoration: none;
 }
-.btn:hover {
+.btn-learnmore:hover {
     position: absolute;
     font-size: 15px;
     padding: 6px 18px;

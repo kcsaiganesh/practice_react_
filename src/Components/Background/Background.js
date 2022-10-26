@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./Background.css";
+import Footer from "../Footer/Footer";
+
 class Background extends Component {
   render() {
     return (
       <div>
         <h1 className="headink">
-          Make<br></br>Remote Work
+          Make<br></br>remote work
         </h1>
         <p className="desc">
           Get yout team in sync, no matter location.<br></br> Streamline
@@ -18,10 +20,14 @@ class Background extends Component {
           src="https://github.com/kcsaiganesh/snap/raw/main/public/images/image-hero-desktop.png"
         ></img>
         <li>
-          <a className="btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <a
+            className="btn-learnmore"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          >
             Learn More
           </a>
         </li>
+        <Footer />
       </div>
     );
   }

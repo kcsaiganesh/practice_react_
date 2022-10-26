@@ -1,13 +1,11 @@
 import Background from "./Components/Background/Background";
-import Nav from "./Components/Navbar/Navbar";
-import Footer from "./Components/Footer/Footer";
+import NavbarMenu from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Background />
-      <Nav />
-      <Footer />
+      <NavbarMenu />
     </div>
   );
 }
