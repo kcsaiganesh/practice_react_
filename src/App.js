@@ -1,13 +1,9 @@
-import Body from './Components/Bodycom';
-import Nav from './Components/Navbar';
-import Fotter from './Components/Fottercomp';
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Body />
-      <Fotter />
+      <Header />
     </div>
   );
 }
